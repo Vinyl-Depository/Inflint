@@ -90,7 +90,7 @@
 		"eslint-plugin-unused-imports": "3.2.0",
 		"figlet": "1.8.0",
 		"husky": "9.1.7",
-		"is-ci": "3.0.1",
+		"is-ci": "4.1.0",
 		"knip": "5.42.0",
 		"lint-staged": "15.3.0",
 		"npm-run-all2": "6.2.6",
