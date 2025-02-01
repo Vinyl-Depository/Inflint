@@ -81,7 +81,7 @@
 		"commitizen": "4.3.1",
 		"cspell": "8.17.2",
 		"cz-vinyl": "2.5.4",
-		"eslint": "8.57.1",
+		"eslint": "9.19.0",
 		"eslint-config-prettier": "9.1.0",
 		"eslint-plugin-deprecation": "2.0.0",
 		"eslint-plugin-import": "2.31.0",
