@@ -15,8 +15,8 @@ dependencies:
     specifier: 9.0.0
     version: 9.0.0(typescript@5.7.3)
   cosmiconfig-typescript-loader:
-    specifier: 5.1.0
-    version: 5.1.0(@types/node@20.5.1)(cosmiconfig@9.0.0)(typescript@5.7.3)
+    specifier: 6.1.0
+    version: 6.1.0(@types/node@20.5.1)(cosmiconfig@9.0.0)(typescript@5.7.3)
   fast-glob:
     specifier: 3.3.3
     version: 3.3.3
@@ -1947,20 +1947,6 @@ packages:
       typescript: 5.7.3
     dev: true
 
-  /cosmiconfig-typescript-loader@5.1.0(@types/node@20.5.1)(cosmiconfig@9.0.0)(typescript@5.7.3):
-    resolution: {integrity: sha512-7PtBB+6FdsOvZyJtlF3hEPpACq7RQX6BVGsgC7/lfVXnKMvNCu/XY3ykreqG5w/rBNdu2z8LCIKoF3kpHHdHlA==}
-    engines: {node: '>=v16'}
-    peerDependencies:
-      '@types/node': '*'
-      cosmiconfig: '>=8.2'
-      typescript: '>=4'
-    dependencies:
-      '@types/node': 20.5.1
-      cosmiconfig: 9.0.0(typescript@5.7.3)
-      jiti: 1.21.6
-      typescript: 5.7.3
-    dev: false
-
   /cosmiconfig-typescript-loader@6.1.0(@types/node@20.5.1)(cosmiconfig@9.0.0)(typescript@5.7.3):
     resolution: {integrity: sha512-tJ1w35ZRUiM5FeTzT7DtYWAFFv37ZLqSRkGi2oeCK1gPhvaWjkAtfXvLmvE1pRfxxp9aQo6ba/Pvg1dKj05D4g==}
     engines: {node: '>=v18'}
@@ -1973,7 +1959,6 @@ packages:
       cosmiconfig: 9.0.0(typescript@5.7.3)
       jiti: 2.4.2
       typescript: 5.7.3
-    dev: true
 
   /cosmiconfig@8.3.6(typescript@5.7.3):
     resolution: {integrity: sha512-kcZ6+W5QzcJ3P1Mt+83OUv/oHFqZHIx8DuxG6eZ5RGMERoLqp4BuGjhHLYGK+Kf5XVkQvqBSmAy/nGWN3qDgEA==}
@@ -3740,11 +3725,11 @@ packages:
   /jiti@1.21.6:
     resolution: {integrity: sha512-2yTgeWTWzMWkHu6Jp9NKgePDaYHbntiwvYuuJLbbN9vl7DC9DvXKOB2BC3ZZ92D3cvV/aflH0osDfwpHepQ53w==}
     hasBin: true
+    dev: true
 
   /jiti@2.4.2:
     resolution: {integrity: sha512-rg9zJN+G4n2nfJl5MW3BMygZX56zKPNVEYYqq7adpmMh4Jn2QNEwhvQlFy6jPVdcod7txZtKHWnyZiA3a0zP7A==}
     hasBin: true
-    dev: true
 
   /js-tokens@4.0.0:
     resolution: {integrity: sha512-RdJUflcE3cUzKiMqQgsCu06FPu9UdIJO0beYbPhHN4k6apgJtifcoCtT9bcxOpYBtpD2kCM6Sbzg4CausW/PKQ==}
